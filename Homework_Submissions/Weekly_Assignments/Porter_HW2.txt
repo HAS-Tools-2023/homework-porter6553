@@ -1,4 +1,9 @@
 Lauren Porter
 Forecasting week 2
 
+##
+## Grade
+3/3 nice work
+##
+
 Similar to last week, I looked at the table and most specifically looked at the past 5 years (not including 2020). I looked at the streamflow since 2018 and made an approximation based on the last month on average. I also included the fact that this year has been a little drier in comparison to other years, but not quite as dry as 2020. 

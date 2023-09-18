@@ -2,6 +2,11 @@
 
 Week 3 forecasting homework due: 1200 September 11, 2023
 
+##
+## Grade
+3/3 I know that this was a really challenging week for a lot of people. Points for effort and I think we've got the bugs sorted out now. 
+##
+
 ## Weekly Description
 
 I ran the starter code and ran into a few hiccups but ultimately was able to fix them. I found that just those simple max, min, mean, and standard deviation calculations were not enough information to do an accurate forecast. What I wanted to do was figure out a way to extract out specifically the month of september and look at those calculations for september. Unfortunately I wasn't able to get that to work. I tried a couple of things:
