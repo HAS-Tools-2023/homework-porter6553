@@ -77,7 +77,7 @@ for i in range(60):
     month_temp = flow_monthly[i, 1]
     print(year_temp)
     print(month_temp)
-    ilist = flow_5yr[:,0] == year_temp and flow_5yr[:,1] == month_temp
+    ilist = (flow_5yr[:,0] == year_temp) & (flow_5yr[:,1] == month_temp)
     c = np.mean(flow_5yr[ilist,3])
 print(c)
 # %%

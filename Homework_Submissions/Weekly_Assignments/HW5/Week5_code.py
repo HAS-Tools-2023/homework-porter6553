@@ -75,9 +75,10 @@ flow_monthly[:,1] = np.tile(np.arange(1, 13, 1), 5)
 for i in range(60):
     year_temp = flow_monthly[i, 0]
     month_temp = flow_monthly[i, 1]
-    print(year_temp)
-    print(month_temp)
-    ilist = flow_5yr[:,0] == year_temp and flow_5yr[:,1] == month_temp
+    #print(year_temp)
+    #print(month_temp)
+    ilist = (flow_5yr[:,0] == year_temp) & (flow_5yr[:,1] == month_temp)
     c = np.mean(flow_5yr[ilist,3])
-print(c)
+    print(c)
+
 # %%

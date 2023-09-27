@@ -12,8 +12,8 @@ In order to forecast for this weeks challenge, I tried to look at the averages f
 Dimensions of flow_5yr: (1826, 4)
 Average flow of flow_5yr: 325.1862541073384 cf/s
 Five values from daily_flow converted to cf: 19353600, 19008000, 18748800, 18316800, 18316800
-Five values from flow_monthly: I haven't been able to get this to work yet.
+Five values from flow_monthly: 303.4516129032258, 582.3793103448276, 1164.4193548387098, 91.84333333333332, 107.58064516129032
 
 ## Weekly Reflection
 
-I feel much better about for loops after this week but I could definitely use some more practice, especially since I have struggled to figure out the last part of the assignment. I think what really helped about this week was the in class examples, and I think it would be really helpful to do more of what we did this week with the different things we talk about every week.
+I feel much better about for loops after this week but I could definitely use some more practice, especially since I have struggled to figure out the last part of the assignment. I am having trouble understanding the ilist line. I think what really helped about this week was the in class examples, and I think it would be really helpful to do more of what we did this week with the different things we talk about every week.
