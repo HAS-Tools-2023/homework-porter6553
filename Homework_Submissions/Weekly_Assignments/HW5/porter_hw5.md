@@ -9,10 +9,10 @@ In order to forecast for this weeks challenge, I tried to look at the averages f
 ## Assignment Code Questions
 
 ### Ordered List
-Dimensions of flow_5yr: (1826, 4)
-Average flow of flow_5yr: 325.1862541073384 cf/s
-Five values from daily_flow converted to cf: 19353600, 19008000, 18748800, 18316800, 18316800
-Five values from flow_monthly: 303.4516129032258, 582.3793103448276, 1164.4193548387098, 91.84333333333332, 107.58064516129032
+1. **Dimensions of flow_5yr**: (1826, 4)
+2. **Average flow of flow_5yr**: 325.1862541073384 cf/s
+3. **Five values from daily_flow converted to cf**: 19353600, 19008000, 18748800, 18316800, 18316800
+4. **Five values from flow_monthly**: 303.4516129032258, 582.3793103448276, 1164.4193548387098, 91.84333333333332, 107.58064516129032
 
 ## Weekly Reflection
 
