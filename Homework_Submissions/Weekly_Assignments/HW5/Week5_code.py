@@ -40,6 +40,7 @@ flow_data = data[['year', 'month','day', 'flow']].to_numpy()
 
 # Array of data between 2015 and 2019
 flow_5yr = flow_data[(flow_data[:,0] >= 2015) & (flow_data[:,0] <= 2019),:]
+## Taking all the rows that include "TRUE", which will be between 2015 and 2019
 print(flow_5yr)
 # Dimensions of flow_5yr
 print(np.shape(flow_5yr))
@@ -69,9 +70,9 @@ print(np.sum(flow_daily))
 # %%
 # Timeseries of monthly average flow with 60 rows and 3 columns
 flow_monthly = np.zeros((60, 3))
-flow_monthly[:,0] = np.tile(np.arange(2015, 2020, 1), 12) #Must go to 2020 because it isn't inclusive
+flow_monthly[:,0] = np.repeat(np.arange(2015, 2020, 1), 12) #Must go to 2020 because it isn't inclusive
 flow_monthly[:,1] = np.tile(np.arange(1, 13, 1), 5)
-#print(flow_monthly[:, 0])
+#print(flow_monthly)
 for i in range(60):
     year_temp = flow_monthly[i, 0]
     month_temp = flow_monthly[i, 1]
@@ -80,5 +81,5 @@ for i in range(60):
     ilist = (flow_5yr[:,0] == year_temp) & (flow_5yr[:,1] == month_temp)
     c = np.mean(flow_5yr[ilist,3])
     print(c)
-
+## Check the homework solutionss
 # %%
