@@ -1,6 +1,8 @@
 # Assignment 5
-
 Working with numpy and loops
+
+### Grade: 
+3/3: Nice job I'm glad you are feeling better about loops. This was a hard assignment and a lot of people struggled with it. Glad you liked our in class activities and we will try to have more. 
 
 ## Forecast Summary
 
