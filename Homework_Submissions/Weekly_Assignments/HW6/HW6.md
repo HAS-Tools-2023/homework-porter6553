@@ -1,6 +1,13 @@
 # Assignment 6
 Working on pandas
 
+### Grade
+2/3: Good effort
+- Note you actually have until 5pm to submit your homework now so that people have time to attend my monday office hours if they have questions. I just pulled this Tuesday morning so I got whatever you had done by then. 
+- I have posted the solution for this weeks assignment. Please take a look and come see me if you have any questions you would like to discuss further. 
+- Also note its fine withe me if you take screenshots of tables and insert them as images into you markdown so you don't have to write out so many numbers. 
+###
+
 ## NOTE
 I deeply underestimated myself and the amount of time this would take, its been a busy week. I apologize but I am turning in as much as I have done at noon, I know it will be a late penalty. I will keep working and keep pushing as I finish things. I apologize for the inconvenience. 
 ## Forecast Summary
