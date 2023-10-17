@@ -2,6 +2,10 @@
 
 Matplotlib assignment
 
+### Grade
+3/3: Nice work. Pandas data frames can be very tricky but I'm glad you were able to get some plots out. 
+###
+
 ## Forecast Summary
 For this weeks forecast summary, I looked at the flow for the past two weeks to see what the trend looks like. I then looked at the GFS model to see what the possibility of rainfall was for the next two weeks. There appears to be rainfall possible within the two week forecast so I increased the forecast to account for that.
 
