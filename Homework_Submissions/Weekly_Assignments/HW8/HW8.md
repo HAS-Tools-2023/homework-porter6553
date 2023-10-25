@@ -1,6 +1,10 @@
 # Week 8 Assignment
 Timeseries assignment
 
+### Grade
+3/3: Nice work, sorry you couldn't get the plot working. Feel free to come by my office hours for help. Pandas is quite confusing I know. 
+###
+
 ## Forecast Summary
 1 Week Forecast = 91.51818181818182
 2 Week Forecast = 88.51818181818182
