@@ -38,8 +38,8 @@ print(oct1)
 # for the calculation of this weeks streamflow forecast.
 # This does the same thing as above, but in the format of a function.
 def monthly(dataframe, month):
-    oct = (dataframe.flow[(dataframe.index.month >= month) & (dataframe.index.year == 2023)])
-    return(oct)
+    october_flow = (dataframe.flow[(dataframe.index.month >= month) & (dataframe.index.year == 2023)])
+    return(october_flow)
 my_output = monthly(dataframe = dataframe_index, month = 10)
 print(my_output.mean())
 
