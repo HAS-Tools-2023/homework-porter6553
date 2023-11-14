@@ -1,6 +1,20 @@
 # Week 9 Assignment
 Timeseries and Functions
 
+### Grade 8.5/9
+**Code Review**
+- I left comments in your code with some suggestions they all start with #LC
+Readability: 3/3 
+    - Overall very clean and easy to read code. 
+    - Great job with descriptive comments 
+    - Generally good naming conventions for the variables but I left a few notes on things you could do. 
+Style: 3/3
+    - A few linting issues but overall very clean 
+Code:  2.5/3
+    - Your code ran perfectly and I didn't have any issues. 
+    - I gave you 2.5/5 because your analysis and function were relatively simple and did not expand much on what we did in class. 
+
+
 ## Forecast Summary 
 1 Week Forecast = 108.3103448275862
 2 Week Forecast = 105.3103448275862

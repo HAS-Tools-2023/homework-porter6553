@@ -1,4 +1,5 @@
 # Starter code for week 9 Timeseries and Functions
+# LC -- should change this header  since this is your submission not the starter code
 
 # %%
 # Import the modules we will use
@@ -17,10 +18,9 @@ print(filepath)
 # %%
 # Read the data into a pandas dataframe
 dataframe = pd.read_table(filepath, sep='\t', skiprows=30,
-                    names =['agency_cd', 'site_no',
-                            'datetime', 'flow', 'code'],
-                            parse_dates =['datetime']
-                    )
+                names =['agency_cd', 'site_no',
+                'datetime', 'flow', 'code'],
+                parse_dates =['datetime'])
 
 print(dataframe)
 
@@ -28,8 +28,13 @@ print(dataframe)
 # Convert the dataframe into an indexed dataframe and set 
 # parameters for what to keep in the dataframe for your calculation. 
 # This is how to do it without creating a function
+
+#LC - note that you can do this when you read it in using the parameter index.col=['datetime']
 dataframe_index=dataframe.set_index('datetime')
-oct = (dataframe_index.flow[(dataframe_index.index.month >= 10) & (dataframe_index.index.year == 2023)])
+
+#LC -- consider your variable names here if you could do something a little more descriptive
+oct = (dataframe_index.flow[(dataframe_index.index.month >= 10) &               (dataframe_index.index.year == 2023)])
+
 oct1 = oct.mean()
 print(oct1)
 
@@ -37,10 +42,14 @@ print(oct1)
 # Create a function that will allow user to specify the month and year needed
 # for the calculation of this weeks streamflow forecast.
 # This does the same thing as above, but in the format of a function.
+
+#LC - nice function. Note for this submission you can delete the block above. THere is no need to have things done two ways. 
 def monthly(dataframe, month):
     october_flow = (dataframe.flow[(dataframe.index.month >= month) & (dataframe.index.year == 2023)])
     return(october_flow)
-my_output = monthly(dataframe = dataframe_index, month = 10)
+
+#LC should have at least one line of whitespace after defining a function
+my_output = monthly(dataframe =         dataframe_index, month = 10)
 print(my_output.mean())
 
 # %%
