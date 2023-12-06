@@ -17,9 +17,9 @@ print(filepath)
 # %%
 # Read the data into a pandas dataframe
 dataframe = pd.read_table(filepath, sep='\t', skiprows=30,
-                    names =['agency_cd', 'site_no',
+                    names=['agency_cd', 'site_no',
                             'datetime', 'flow', 'code'],
-                            parse_dates =['datetime']
+                            parse_dates=['datetime']
                     )
 
 print(dataframe)
@@ -28,7 +28,7 @@ print(dataframe)
 # Convert the dataframe into an indexed dataframe and set 
 # parameters for what to keep in the dataframe for your calculation. 
 # This is how to do it without creating a function
-dataframe_index=dataframe.set_index('datetime')
+dataframe_index = dataframe.set_index('datetime')
 oct = (dataframe_index.flow[(dataframe_index.index.month >= 10) & (dataframe_index.index.year == 2023)])
 oct1 = oct.mean()
 print(oct1)
