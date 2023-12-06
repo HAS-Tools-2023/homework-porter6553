@@ -67,6 +67,8 @@ def plot_streamflow(ax, data, label='Camp Verde Site'):
     ax.legend()
     return ax
 
+# LC -- doesn't really matter for this but in general you don't want to share your tokens with people so it would be a good idea to make the token an argument to this function 
+# Could also use some doc strings :) 
 def get_mesowest_precipitation():
     """
     Retrieve precipitation data from Mesowest API.
